@@ -8,7 +8,7 @@ if [ $EUID != 0 ];
 fi
 
 #Executable permission
-chmod 700 /script/*
+chmod 700 ./script/*
 
 # First Update
 ./script/update.sh
